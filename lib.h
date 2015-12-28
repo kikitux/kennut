@@ -9,5 +9,5 @@ struct foo {
     char bar[20];
 };
 
-struct foo myfunc(struct foo *src, struct foo *dst, size_t len);
+struct foo myfunc(struct foo *src, struct foo *dst);
 #endif //KENNUT_LIB_H

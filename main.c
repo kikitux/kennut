@@ -8,7 +8,7 @@ int main()
     struct foo s, d;
     strcpy(s.bar, "some string");
 
-    myfunc(&s, &d, strlen(s.bar) + 1);
+    myfunc(&s, &d);
 
     printf("%s\n", d.bar);
 
